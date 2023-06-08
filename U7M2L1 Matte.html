@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Toggle News Article</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    .article {
+      display: none;
+    }
+  </style>
+  <script>
+    $(document).ready(function() {
+      $("h1").click(function() {
+        $(".article").toggle("slow");
+      });
+    });
+  </script>
+</head>
+<body>
+  <h1>Click to Toggle News Article</h1>
+  <p class="article">
+
+	<a href="https://news.google.com/home?hl=en-US&gl=US&ceid=US:en">Visit Google news!</a>
+    </p>
+	</body>
+</html>
